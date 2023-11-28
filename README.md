@@ -8,4 +8,5 @@ Explore the demonstration of Project 1 in my [[Project Collection](https://www.y
 ## Project Description
 Overview:
 Tech stack: HTML5 and CSS3
+
 Dive into web development with this simple Interior Design project, built using HTML and CSS. Perfect for beginners, it's a creative start to your coding journey. Explore the world of design on the web! 🏡💻
