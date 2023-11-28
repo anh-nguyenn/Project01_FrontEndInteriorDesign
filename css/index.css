@@ -1,0 +1,177 @@
+/* GLOBAL */
+*{
+    /* only applicable for padding  */
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+
+/* HEADER  */
+.header img{
+    width: 250px;
+}
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 15px 0;
+    margin: 5px 0 10px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.header li{
+    display: inline;
+    margin: 0 10px;
+  
+}
+
+/* CAROUSEL */
+.carousel{
+    background-image: url("../img/slider_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+/* INTRO  */
+.intro__left, .intro__right{
+    float: left;
+    width: 50%;
+}
+.intro__smallItem{
+    float:left;
+    width: 50%;
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+.intro__text{
+    font-size: 20px;
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+.intro__item{
+    padding: 0px 15px 20px;
+}
+
+
+/* PRODUCTS */
+.product{
+    margin-bottom: 70px;
+}
+.product h2{
+    text-align: center;
+    font-size: 30px;
+}
+.products__item{
+    float: left;
+    width: 25%;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+}
+.products__item img{
+    width: 100%;
+}
+
+.products__item p{
+    font-size: 17px;
+    margin-bottom: 20px ;
+}
+.products__item button{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    /* use padding to edit button */
+    padding: 5px 10px;
+
+}
+/* Clear FLOAT effect because the margin-bottom cannot be editted when using float */
+
+/* BANNER */
+.banner{
+    background-image: url("../img/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.banner__circle{
+    width: 300px;
+    height: 300px;
+    /* rbga  */
+    background-color: rgba(131, 41, 39, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    /* opacity: 0.8; --> ko nen dung, nen dung RGBA  */
+    position: absolute;
+    top: 20px;
+    left: 340px;
+    /* top, left, right, bottom go with position  */
+}
+
+.banner__circle p{
+    font-size: 20px;
+    margin: 0 0 20px;
+
+}
+.banner__circle p:first-child{
+    font-size: 30px;
+    margin: 50px 0 0;
+}
+.banner__circle p:nth-child(2){
+    font-size: 80px;
+    margin: 0;
+}
+
+/* SERVICE */
+.services{
+    margin: 20px 0 10px;
+}
+
+.services__content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.services__item{
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+}
+.services__item i{
+    font-size: 40px;
+}
+.services__item h2{
+    margin: 10px 0;
+}
+.services__item p{
+    margin: 0;
+}
+
+
+/* FOOTER  */
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.footer p, .footer h2{
+    margin: 0;
+}
+.footer h2{
+    font-size: 30px;
+}
+
